@@ -1,0 +1,37 @@
+.modal-wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-window {
+    max-width: 800px;
+    height: 90%;
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+.albums-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    list-style: none;
+    gap: 10px;
+}
+
+.albums-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+}
